@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Schedule a New Report</h1>
+<form method="POST">
+    <label for="email">Email:</label>
+    <input type="email" name="email" required>
+    <label for="schedule_time">Schedule Time:</label>
+    <input type="datetime-local" name="schedule_time" required>
+    <button type="submit">Schedule</button>
+</form>
+{% endblock %}

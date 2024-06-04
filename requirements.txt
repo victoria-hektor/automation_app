@@ -1,0 +1,8 @@
+Flask
+SQLAlchemy
+APScheduler
+pandas
+matplotlib
+reportlab
+requests
+smtplib

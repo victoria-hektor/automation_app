@@ -1,0 +1,9 @@
+Files:
+
+run.py: Entry point for the Flask application.
+app/__init__.py: Initialize Flask app.
+app/routes.py: Define routes and views.
+app/models.py: Define database models.
+app/templates/: Store HTML templates.
+app/static/: Store CSS and JavaScript files.
+requirements.txt: List of dependencies.
